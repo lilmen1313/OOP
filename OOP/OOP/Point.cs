@@ -9,8 +9,14 @@ internal class Point
     public int x;
     public int y;
     public char sym;
+    public Point(int _x, int _y, char _sym) /*конструктор*/
+    {
+        x = _x;
+        y = _y;
+        sym = _sym;
+    }
 
-    public void Draw()
+    public void Draw() // метод отображения точки
     {
         Console.BackgroundColor = ConsoleColor.Blue;
         Console.SetCursorPosition(x, y);
