@@ -18,7 +18,7 @@ internal class Point
 
     public void Draw() // метод отображения точки
     {
-        Console.BackgroundColor = ConsoleColor.Blue;
+        Console.BackgroundColor = ConsoleColor.Red;
         Console.SetCursorPosition(x, y);
         Console.WriteLine(sym);
     }
